@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.child {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+   transition: 5s;
+    animation-duration: 3s;
+    animation-name: color;
+
+}
+#parent
+{
+    height:400px;
+    width:500px;
+    background-color: chartreuse;
+
+}
+#parent:hover .child {
+        transform: translateX(100%);
+        background-color:darkgreen;
+     
+}
+  /* @keyframes color{
+        100%{
+            transform: translateX(100%);
+            background-color: chartreuse;
+        }
+    }  */
+
+    .large{
+  width: 200px;
+  height: 200px;
+  background-color:orange;
+  animation-name: example;
+  animation-duration: 5s;
+}
+#small {
+       /* background-color:green; */
+       
+         height: 400px;
+        width: 500px;
+
+    }
+
+@keyframes example {
+    from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+
+</style>
+<body>
+    <section id="parent">
+     <div class="child"></div>
+
+       
+         <div id="small"></div>
+         <div class="large"></div>
+</section>
+          
+</body>
+</html> 

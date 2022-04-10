@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            margin: 0px;
+            padding: 0px;
+        }
+        .nav a{
+            background-color: black;
+            font-size: 20px;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-decoration: none;
+            display: block;
+            float: right;
+            padding: 15px;
+        }
+        a:hover{
+            color: red;
+        }
+        .down {
+            background-color: red;
+            padding: 15px;
+            color: white;
+            width: 200px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            cursor: pointer;
+
+        }
+        .drop {
+            display: none;
+            position: absolute;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            width: 150px;
+            z-index: 1;
+
+        }
+        .drop ,a{
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 10px;
+        }
+        .drop a:hover{
+            background-color: aquamarine;
+        }
+        .down:hover .drop {
+  display: block;
+}
+
+.drop:hover .down {
+  background-color: #3e8e41;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">News</a>
+            <!-- <a style="float: left"href="">Contact</href=> -->
+        </div>
+    </div>
+
+    <!--- dropdownlist-->
+    <button class="down">Download</button>
+        <div class="drop">
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+    </div>
+</body>
+</html>

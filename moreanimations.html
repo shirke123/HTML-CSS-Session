@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .small{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        /* transition: 4s; */
+        animation-duration: 3s;
+        animation-name: color;
+
+    }
+
+    #large {
+        background-color: blue;
+        height: 400px;
+        width: 500px;
+
+    }
+
+    /* #large:hover .small {
+        transform: translateX(100%);
+        background-color: salmon;
+    } */
+
+    @keyframes color{
+        100%{
+            transform: translateX(100%);
+            background-color: chartreuse;
+        }
+    }
+</style>
+
+<body>
+    <section id="large">
+        <div class="small"></div>
+    </section>
+    
+</body>
+</html>

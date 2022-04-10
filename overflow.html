@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main p
+        {
+            height:100px;
+            width:200px;
+            left:100px;
+            top:100px;
+            /* overflow:hidden; */
+            /* overflow: visible; */
+            /* overflow:auto; */
+            overflow:scroll;
+        }
+        .visiable
+        {
+            height:100px;
+            width:200px;
+            left:100px;
+            top:100px;
+            overflow:visible;
+            background-color: aquamarine;
+            
+        }
+        .hidden
+        {
+            height:100px;
+            width:200px;
+            left:100px;
+            top:100px;
+            overflow:hidden;
+            background-color: coral;
+        }
+        .auto
+        {
+            height:100px;
+            width:200px;
+            left:100px;
+            top:100px;
+            overflow:auto;
+            
+        }
+
+         .contanier{
+            height:300px;
+            width:300px;
+            background-color:aqua;
+            top:300px;
+            left:500px;
+            /* position:static; */
+             /* position:relative ; */
+               position:fixed ; 
+            /* position: sticky; */
+            position: absolute;
+            text-align: right;
+            block-size:200px;
+         }
+
+
+
+         .one > p
+        {
+            background-color: blueviolet;
+        }
+        .one + p{
+            background-color:yellow;
+        }
+        .one  ~ p{
+            background-color: crimson;
+        }
+        .one  p{
+            background-color:violet;
+        }
+       
+
+
+        img
+    {
+        position: absolute;
+        z-index:3;
+    }
+        
+    </style>
+</head>
+<body>
+    <!---overflowcss-->
+    <div class="main">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi, necessitatibus eum fuga 
+    at, debitis ab ullam aspernatur omnis corporis aliquid minus fugiat officia. Exercitationem tenetur saepe pariatur porro tempore?</p>
+ </div>
+
+ <div class="visiable">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem excepturi debitis exercitationem id saepe eaque. At nemo nisi voluptatibus delectus sequi facere deleniti, amet fugit molestias rerum veniam, molestiae vel!</p>
+ </div>
+
+<div class="hidden">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo rem soluta recusandae at placeat expedita beatae fugit maxime repudiandae dolorum ratione, eos voluptas in accusantium! Voluptatem culpa ut fuga.</p>
+</div>
+
+<div class="auto">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente perferendis cupiditate sed recusandae, eveniet illo eum cum delectus enim repellat possimus minus temporibus, nihil maiores tempore vitae accusamus nostrum. Neque.</p>
+</div>
+
+
+
+
+<!---position-->
+<div class="contanier">
+ <h5>hello world</h5>
+ </div>
+
+
+
+<!--combinators-->
+
+ <h1> selector</h1>
+    <div class="one">
+        <p>this is a praragraph</p>
+        <p>this is a praragraph</p>
+<section>
+    <p>this is a praragraph</p>
+</section>
+
+<p>this is a praragraph</p>
+</div>
+
+<p>this is a praragraph</p>
+<p>this is a praragraph</p>
+
+
+
+<!-- <img src="rectangle 40.png" width="200"height="200"> -->
+</body>
+</html>

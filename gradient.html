@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient</title>
+   <style>
+       #grad
+       {    
+           height:100px;
+           width:400px;
+           background-color:red;
+           background-image:linear-gradient(red,blue );
+       }
+       #grad1
+       {
+            height:300px;
+            width:400px;
+            background-color:blue;
+            background-image:radial-gradient(blue,yellow,red 60%);
+       }
+       #grad2
+       {
+           height:200px;
+           width:500px;
+           background-image:conic-gradient(red,yellow,blue);
+       }
+       #grad3 
+       {
+           height:200px;
+           width:400px;
+           background-image:linear-gradient(to right,blue,yellow);
+    }
+       #grad4{
+           height: 300px;
+           width: 400px;
+           background-image:repeating-radial-gradient(red, yellow 15%, green 20%);
+}
+        #grad5{
+            height:400px;
+            width:500px;
+            background-image:conic-gradient(yellow 60deg, green 90deg);
+        }
+        #grad6{
+            height: 300px;
+            width:400px;
+            background-image:conic-gradient(red,green,blue,yellow);
+            border-radius: 50%;
+        }
+        #grad7{
+            height:300px;
+            width:500px;
+         background-image: repeating-conic-gradient(blue 20%, yellow 40%);
+          border-radius: 50%;
+        }
+   </style>
+
+</head>
+<body>
+  <h1>linear gradient</h1>
+    <div id="grad"></div>
+    <div id="grad1"></div>
+    <div id="grad2"></div>
+    <div id="grad3"></div>
+    <div id="grad4"></div>
+    <div id="grad5"></div>
+    <div id="grad6"></div>
+    <div id="grad7"></div>
+
+</body>
+</html>
+
