@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* not use of design  */
+
+     div::first-letter
+     {
+         color:brown;
+         text-transform: uppercase;
+         font-size: 30px;
+     }
+     div::first-line{
+         color: aqua;
+    }
+    ul li::marker
+    {
+        color: red;
+    }
+     p::before
+     {
+         content:"hellohgghhjg";
+         color: black;
+
+     }
+     p::after
+     {
+         content:"hello.....";
+         color: black;
+     }
+     
+     h3::selection{
+         background-color: red;
+         color:blue;
+     }
+
+
+     a:visited
+     {
+         background-color:blue;
+
+     }
+     a:active{
+         background-color: black;
+     }
+      
+     A:hover
+     {
+         background-color:red;
+     }
+
+</style>
+</head>
+<body>
+    <!--- css pseudo elements -->
+       <div>lorem ipsum, dolor sit amet consectetur adipisicing elit. </div>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <ol >
+        <li>four</li>
+        <li>five</li>
+    </ol>
+      
+    <p >lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eveniet laudantium commodi itaque odio numquam neque quos asperiores consequatur</h3>
+ <!---css pseudo class -->
+ <a href="#">this is a link</a>
+</body>
+</html>

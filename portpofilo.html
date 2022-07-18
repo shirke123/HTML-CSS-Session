@@ -6,346 +6,291 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portpofilo</title>
     <style>
-        
-       .nav
-        {
-            margin:0;
-            padding:0;
-            text-decoration: none;
-
+        body{
+            margin: 0px;
+            padding: 0px;
         }
-        .nav,a{
+        .header{
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .nav{
+            float: right;
+            display: inline;
+            margin-top: 15px;
+        }
+        .nav a{
+            font-size: 20px;
+            color: black;
             text-decoration: none;
-            font-size:20px;
-            text-align: right;
-            color:black;
             padding: 12px;
-
-
+           
+           
         }
-        .photo{
-        padding: 10px;
+      .photo{
         float:right;
-       border-radius: 50%;
-       text-align: center;
-        }
-      .photo img{
-      
-       border-radius: 50%;
 
         }
-        .container h1{
+     .photo img{
+      margin-top: 80px;
+       border-radius: 250%;
+        }
+       
+        .header h1{
             font-size: 30px;
-            margin:35px;
+            margin-left:35px;
+            margin-top:80px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .container p{
-            font-size: 17px;
-            margin:35px;
+        .header p{
+            font-size: 15px;
+            margin-left:35px;
+            display: block;
             font-family: Arial, Helvetica, sans-serif;
-
-
         }
-       button{
-       background-color:red;
-       color:black;
-       font-family: Arial, Helvetica, sans-serif;
-       font-weight: bolder;
-       padding: 10px;
-       border: none;
-       font-size: 15px;
-       margin:35px;
-       margin-top: 2px;
-
+        button{
+            padding: 10px;
+            background-color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            color:white;
+            font-weight: bolder;
+            margin:35px;
+            margin-top: 2px;
         }
-  
-.contanier1{
+    .contanier{
     
-       height:290px;
-       background-color: lightblue;
+    height:340px;
+    margin-top: 35px;
+    background-color: lightblue;
 }
-  
-  .left{
-       float:left;
 
-   }
-   .right{
-       float: right;
+.left{
+    float:left;
 
-   }
-   
-      .leftdata{
-          position: absolute;
-        width: 350px;
-       margin-top: 20px;
-       margin-bottom: 10px;
-       background-color: white;
-       padding: 30px;
-       float:left;
-       height: 200px;
-       left: 200px;
-       background-color: white;
-       font-family: Arial, Helvetica, sans-serif;
-        }
-    .rightdata
-   {
-    width: 350px;
-       margin-top:22px;
-       margin-bottom: 40px;
-       background-color: white;
-       padding: 30px;
-       float:right;
-       height: 200px;
-       font-family: Arial, Helvetica, sans-serif;
-
-   }
- 
-
-.sub-contanier{
-
-    /* border:1px solid black; */
-    width:1330px;
-    height:900px;
 }
- .box1
+.right{
+    float: right;
+
+}
+.right a{
+    text-decoration: none;
+    
+}
+
+   .leftdata{
+     width: 350px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    float:left;
+    height: 220px;
+    left: 200px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .leftdata h1 {
+           font-size: 20px;
+     }
+
+     .rightdata h1{
+         font-size: 20px;
+     }
+ .rightdata
 {
-       width: 200px;
-       top: 800px;
-       left:200px ;
-} 
-.rightdata1{
-     /* position: absolute; */
-    /* float: right; */
-    font-size: 20px;
-    /* width:300px;
-    height: 200px; */
-    text-align:center;
-     top:200px; 
-    left:300px;
-    /* margin:12px; */
-    /* margin-top: 100px;
-   margin-left:300px ; */
+    width: 350px;
+    margin-top:60px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    float:right;
+    height: 220px;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+
+.sub-contanier a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: gray;
+    font-size: 20px;
+
+}
+.box1{
+    float: left;
+    margin-left: 130px;
+    width: 20%;
 }
 .rightdata1 h1{
-     position: absolute; 
-    font-size: 25px;
-    top:700px;
-    left: 400px;
+    font-size: 20px;
+    float: right;
+    width: 70%;
+    text-align: left;
+
 }
-.button1 {
-     position: absolute; 
-     /* left:50px; */
-     top:760px;
-    left: 0px;
-}  
+
+.bu{
+    background-color:gray;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border:100%;
+}
+.rightdata1 p{
+    font-size: 16px;
+}
 
 hr{
-       width: 90%;
-       color:rgb(red, green, blue);
-       margin-top: 100px;
-   }  
- .box2{
-    /* position: absolute; */
-     height: 200px;
-    width: 200px;
-    /* margin: 70px;*/
-    top: 1100px;
-   left:150px ;
-    
- }
- .rightdata2{
-     /* position: absolute; */
-    float: right;
-    font-size: 20px;
-    /* width:300px;
-    height: 200px; */
-    top:700px;
-    left:600px;
-   text-align: center;
-    /* margin-top: 100px;
-   margin-left:300px ; */
-
-}
-.rightdata2 h1{
-    position: absolute;
-    font-size: 20px;
-    /* top:1200px; */
-    left:50px;
-     top:1000px;
-    left: 400px;
-}
-
-.rightdata2 button{
-    position: absolute; 
-    left:50px;
-     top:1050px;
-    left: 400px;
-}
- 
- hr{
-       width: 80%;
-       color:rgb(red, green, blue);
-       margin-top: 25px;
-   }  
-   /* .contanier3{
-       float: left;
-   } */
-   .box3{
-       /* position: absolute; */
-    height: 200px;
-    width: 200px;
-    /* margin: 70px; */
-    top: 1400px;
-   left:150px 
-    
-   }
-   .rightdata3{
-     position: absolute;
-    float: right;
-    font-size: 20px;
-    /* width:300px;
-    height: 200px; */
-    top:1250px;
-    left:300px;
-    text-align: center;
-    /* margin-top: 100px;
-   margin-left:300px ; */
-
-}
-.rightdata3 h1{
-     /* position: absolute;  */
-    font-size: 20px;
-    /* left:50px; */
-     top:200px;
-    /* left: 00px; */
-}
-.rightdata3 button{
-    /* position: absolute; */
-    left:30px;
-     top:0px;
-    left:50px;
-}
-  hr{
        width: 80%;
        color:rgb(red, green, blue);
        margin-top: 25px;
    }   
-   
+
+.box2{
+    float: left;
+    width: 20%;
+    margin-left: 130px;
+
+}
+.box3{
+    float: left;
+    margin-left: 130px;
+    width: 20%;
+}
+ @media (max-width:768px){
+     .contanier,
+     .nav,
+     .nav a{
+         float: none;
+     }
     
- .footer {
-       margin-top:0px;
-       width:1330px;
-       height:100px;
+
+}
+    .footer {
+       
+       text-align: center;
+       margin-top: 50px;
+       margin-bottom: 50px;
+      
     }
 .footer,img {
-                text-align: center;
+                
+        text-align: center;
             }
-         
+   
+    
     </style>
 </head>
 <body>
-    
-    <div class="nav">
-        <a href="figma.html">Works</a>
-        <a href="blog.html">Blog</a>
-        <a href="Contact.html">Contact</a>
-    </div>
+    <div class="header">
+        <div class="nav">
+            <a href="Works.html">Works</a>
+            <a href="Blog.html">Blog</a>
+            <a href="">Contact</a>
+        </div>
 
-    <div class="container">
         <div class="photo">
-        <img src="https://cdn2.vectorstock.com/i/1000x1000/94/16/girl-icon-vector-21019416.jpg"alt=""width="200"height="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI3oJUT7pvlCniof8c2te2FKvB-nTcWISAIA&usqp=CAU"alt=""width="200"height="200">
+        </img>
        </div>
-    <h1>Hi,I Am,pooja<br><span>Creative Technologies</span></h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas explicabo porro omnis ipsam cum
-         suscipit aliquid<br> aliquam dolore voluptatum, nisi recusandae esse exercitationem reiciendis 
-         consequatur dignissimos<br> adipisci? Possimus, magni voluptates.</p>
-        <button>Download Resume</button>
-    </div>
 
+   <h1>Hi,I am,pooja<br><span>Creative Technologist</span></h1>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas explicabo porro omnis ipsam cum
+         suscipit aliquid aliquam dolore voluptatum, nisi recusandae esse exercitationem reiciendis 
+         consequatur dignissimos adipisci? Possimus, magni voluptates.</p>
+        
+         <button>Download Resume</button>
+    </div>
 
     <section id="recent">
-    <div class="contanier1">
-      
-            <div class="left">
-                <h3>Recent Posts</h3>
-             </div>
-             <div class="right">
-                 <h3><a href="">view all</a></h3>
-             </div>
-
-            <div class="leftdata">
-                <h1>Making data Design strach</h1>
-                <p>12 feb 2020 | Design pattern</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque accusantium 
-                    fugit ut nostrum minus consectetur minima accusamus laudantium id officia eaque cumque 
-                    deserunt, quisquam, assumenda laboriosam blanditiis repellendus libero aliquid.</p>
-            </div>
-            <div class="rightdata">
-                    <h1>Making data Design strach</h1>
+        <div class="contanier">
+          
+                <div class="left">
+                    <h3>Recent Posts</h3>
+                 </div>
+                 <div class="right">
+                     <h3><a href="">view all</a></h3>
+                 </div>
+    
+                <div class="leftdata">
+                    <h1>Making data Design system from scratch</h1>
                     <p>12 feb 2020 | Design pattern</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque accusantium 
                         fugit ut nostrum minus consectetur minima accusamus laudantium id officia eaque cumque 
                         deserunt, quisquam, assumenda laboriosam blanditiis repellendus libero aliquid.</p>
                 </div>
-            </div>
-</section>
+                <div class="rightdata">
+                        <h1>Creating pixel perfect icons in figma</h1>
+                        <p>12 feb 2020 | Design pattern</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque accusantium 
+                            fugit ut nostrum minus consectetur minima accusamus laudantium id officia eaque cumque 
+                            deserunt, quisquam, assumenda laboriosam blanditiis repellendus libero aliquid.</p>
+                    </div>
+                </div>
+    </section>
 
 
-       <div class="sub-contanier">
-          <h3>featured Works</h3>
-          <div class="box1">
-              <img src="Rectangle 30.png "width="200px" height="200px">
+    <div class="sub-contanier">
+        <h3>featured Works</h3>
+        <div class="box1">
+            <img src="Rectangle 30.png "width="200px" height="200px">
+       </div>
+
+        <div class="rightdata1">
+           <h1>Designing Dashboards</h1>
+
          
+          <button class="bu">2020</button>
+          
+          <a href="">Dashbord</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae placeat tenetur tempore est possimus consequatur dolor<br> totam. Deserunt,
+              eaque animi. Veniam minima quasi consectetur vero accusantium error atque consequuntur.</p>
+ </div>
+    
+ <hr>  
 
-          <div class="rightdata1">
-             <h1>Designing Dashbord</h1>
+ <div class="box2">
+    <img src="Rectangle 32 (1).png"height="200px"width="200px">
+    </div>
+    <div class="rightdata1">
+    <h1>Vibrant portaits of 2020</h1>
+    <button class="bu">2018</button>
+    <a href="">Illustration</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae placeat tenetur tempore est possimus consequatur dolor<br> totam. Deserunt, 
+        eaque animi. Veniam minima quasi consectetur vero accusantium error atque consequuntur.</p>
+  
+  </div>
+  <hr> 
+    <div class="box3">
+  <img src="Rectangle 34.png"height="200px"width="200px">
+    </div>
 
-             <div class="button1">
-            <button>2020</button>
-            
-            <a href="">Dashbord</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae placeat tenetur tempore est possimus consequatur dolor totam. Deserunt, 
-                eaque animi. Veniam minima quasi consectetur vero accusantium error atque consequuntur.</p>
-   </div>
-   </div>        
+    <div class="rightdata1">
+    <h1> 36 days of Malayalam type</h1>
+
+    <button class="bu">2018</button>
+    <a href="">Typography</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae placeat tenetur tempore est possimus consequatur dolor<br> totam. Deserunt,
+        eaque animi. Veniam minima quasi consectetur vero accusantium error atque consequuntur.</p>
+  </div>
+  
+  <hr>
+  </div>
+
+
+<footer>
+<div class="footer">
+        <img src="https://th.bing.com/th/id/OIP.mjoG94zAqNefzlni3m2hRgHaHa?w=218&h=218&c=7&r=0&o=5&pid=1.7"width="70px"height="70px">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGYAsgMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/9oACAEBAAAAAPSgAAAAjlgNu8ABh5vRGaIW9tIAK7z9v0YG2q0+pyACKymuKbf0aOnrpfVZABFZWd3HZcVhRXlJ6nMAIra/scnNb1F1SepzACODg6+Wx5tlLd0nqcwAjh4LGuZc2FtS+pzACOXi6tsY4xT4+mzABr5Uxr0c2m1scgARrwgRnsykACIBKQP/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAgEDBAX/2gAKAgIQAxAAAAAArGmMAAemqT0yqvy+QADt3nrmtvOPiAAj1xV3e3MeAADyeti+t97z5gAEVxttdO075wAAAAP/xAA3EAABAwIACQoFBQEAAAAAAAABAAIDBBEFEBIhMFFTcpITFCIxM0FSYXORFTI1cbEkNEBCYkP/2gAIAQEAAT8A/nFwaCSQAO8o1tKP+vsCVz+l8Z4Suf0u0PCVz+l2h4Suf0u0PCVz+k2h4So6mCQ2ZK0nTvcGNc5xsGgkqoqX1D7nM3uaroG/Vn+ys/wP4Ssl+zfwlWd4HexV8VBVuJEMh3DpsJOtTEa3gYqOhZkCao+4aUcJUzOixjiOEL4qzYu918VZsXcSGFY9i9Nlo63oFvS1EWKqaZ1NJbrac7SmOLHscO5wKGkKwn2DfUUbOUljZ4ngLCjyGRRjqdihppp+zZm1nMEcG1IH9Coo2ipYycZIvnBVeyCIxGGzX/5VbaWibLuu98Q0hWEuwb6ipP3VP6gWFO0h3SqWDnEwYflAu5VdZzciKIC4HCm19UDcvDhqIT2x19NltHTHV5HE/wClj0mYhpCsI9i3fVKP1UHqBYSF3xbpWDbB826FVNIqZr+MlELBYIZLqL08gvcR1XKf9Lb6TMQ0hVf2Td9U4tUQn/YVeOnH9ionmGQPCkhhq2h7XWOtDBpJ6UubyCqZo6eLkIuu1vsupSfSx6bMQ0hVZ2Y3k27XNdqIKqmcrG17c9vwVZDKabtJB8k6adwsZX+6IQjdK8RsFyVXkR07Ih3/AIbiGkKqW5UZ8jdBqhkMYyTnaiKZ+chv4XI03lxIw0nlxLkaHvLOJGppYGkRNBOpoU8r5pC96iYXyxsHe4IaVwRjsUGrJRai1OanhZLnmzWlx8lSUvJdN/zlDSlFqLVkrJWQsgalybfCEGWQGnsrKysrKysraH//xAAmEQACAQIEBQUAAAAAAAAAAAABAgADERIhMFITFDFCYiAiQEGR/9oACAECAQE/APRgfaZgfaZgfaYQRoUVFi0arnZRecR9s4rDqsNnXQQ2SA2WYjAbmIctBnsQIalnsZdr5dIDF0K5IeMBV9wYA/YMFNx3j9ii3VhFOg6BxnOX8py/lBRI7oMh8H//xAArEQACAQIFAgMJAAAAAAAAAAABAgADERITITAxBCIgUYEjM0BBQlNhcXL/2gAIAQMBAT8A8Fx57YXFAgvoLwI325qvNM2hQOtxsUx2EykAtLEYM5xiUKBE9o1ySCuhWUR2sPJjsUvct6xVxdPYRK6BQG0IlEFmepawbiUOH/s7FAjLIiuaXaQSPkZnoeUJ9Jnk6IjEymmXT1/Z2FYrMyCr+IvU2+mVOoZxYCw+B//Z"width="70px"height="70px"> 
+        <img src="https://th.bing.com/th/id/OIP.jwe2U5qVWawaNBwe5euOkAHaE8?w=288&h=192&c=7&r=0&o=5&pid=1.7" width="70px"height="70px">
+       <img src="https://th.bing.com/th/id/OIP.DgVNhFcvWWSCxJpVWsry4wHaHV?w=183&h=181&c=7&r=0&o=5&pid=1.7"width="60px"height="60px">
+       <div>Copyright @2020 All rights reserved</div>
+    </div>
+</footer> 
 </div>
-<hr>
-
-
-            <div class="box2">
-            <img src="Rectangle 32 (1).png"height="200px"width="200px">
-            </div>
-            <div class="rightdata2">
-            <h1>Designing Dashbord</h1>
-            <button>2020</button>
-            <a href="">Dashbord</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae placeat tenetur tempore est possimus consequatur dolor totam. Deserunt, 
-                eaque animi. Veniam minima quasi consectetur vero accusantium error atque consequuntur.</p>
-          
-          </div>
-          <hr> 
-            <div class="box3">
-            <img src="Rectangle 34.png"height="200px"width="200px">
-            <div class="rightdata3">
-            <h1>Designing Dashbord</h1>
-            <button>2020</button>
-            <a href="">Dashbord</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum beatae placeat tenetur tempore est possimus consequatur dolor totam. Deserunt, 
-                eaque animi. Veniam minima quasi consectetur vero accusantium error atque consequuntur.</p>
-          </div>
-          </div>
-          <hr>
-          
-      </div>
-        
-       <footer>
-        <div class="footer">
-  <img src="https://th.bing.com/th/id/OIP.mjoG94zAqNefzlni3m2hRgHaHa?w=218&h=218&c=7&r=0&o=5&pid=1.7"width="70px"height="70px">
-  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGYAsgMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/9oACAEBAAAAAPSgAAAAjlgNu8ABh5vRGaIW9tIAK7z9v0YG2q0+pyACKymuKbf0aOnrpfVZABFZWd3HZcVhRXlJ6nMAIra/scnNb1F1SepzACODg6+Wx5tlLd0nqcwAjh4LGuZc2FtS+pzACOXi6tsY4xT4+mzABr5Uxr0c2m1scgARrwgRnsykACIBKQP/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAgEDBAX/2gAKAgIQAxAAAAAArGmMAAemqT0yqvy+QADt3nrmtvOPiAAj1xV3e3MeAADyeti+t97z5gAEVxttdO075wAAAAP/xAA3EAABAwIACQoFBQEAAAAAAAABAAIDBBEFEBIhMFFTcpITFCIxM0FSYXORFTI1cbEkNEBCYkP/2gAIAQEAAT8A/nFwaCSQAO8o1tKP+vsCVz+l8Z4Suf0u0PCVz+l2h4Suf0u0PCVz+k2h4So6mCQ2ZK0nTvcGNc5xsGgkqoqX1D7nM3uaroG/Vn+ys/wP4Ssl+zfwlWd4HexV8VBVuJEMh3DpsJOtTEa3gYqOhZkCao+4aUcJUzOixjiOEL4qzYu918VZsXcSGFY9i9Nlo63oFvS1EWKqaZ1NJbrac7SmOLHscO5wKGkKwn2DfUUbOUljZ4ngLCjyGRRjqdihppp+zZm1nMEcG1IH9Coo2ipYycZIvnBVeyCIxGGzX/5VbaWibLuu98Q0hWEuwb6ipP3VP6gWFO0h3SqWDnEwYflAu5VdZzciKIC4HCm19UDcvDhqIT2x19NltHTHV5HE/wClj0mYhpCsI9i3fVKP1UHqBYSF3xbpWDbB826FVNIqZr+MlELBYIZLqL08gvcR1XKf9Lb6TMQ0hVf2Td9U4tUQn/YVeOnH9ionmGQPCkhhq2h7XWOtDBpJ6UubyCqZo6eLkIuu1vsupSfSx6bMQ0hVZ2Y3k27XNdqIKqmcrG17c9vwVZDKabtJB8k6adwsZX+6IQjdK8RsFyVXkR07Ih3/AIbiGkKqW5UZ8jdBqhkMYyTnaiKZ+chv4XI03lxIw0nlxLkaHvLOJGppYGkRNBOpoU8r5pC96iYXyxsHe4IaVwRjsUGrJRai1OanhZLnmzWlx8lSUvJdN/zlDSlFqLVkrJWQsgalybfCEGWQGnsrKysrKysraH//xAAmEQACAQIEBQUAAAAAAAAAAAABAgADERIhMFITFDFCYiAiQEGR/9oACAECAQE/APRgfaZgfaZgfaYQRoUVFi0arnZRecR9s4rDqsNnXQQ2SA2WYjAbmIctBnsQIalnsZdr5dIDF0K5IeMBV9wYA/YMFNx3j9ii3VhFOg6BxnOX8py/lBRI7oMh8H//xAArEQACAQIFAgMJAAAAAAAAAAABAgADERITITAxBCIgUYEjM0BBQlNhcXL/2gAIAQMBAT8A8Fx57YXFAgvoLwI325qvNM2hQOtxsUx2EykAtLEYM5xiUKBE9o1ySCuhWUR2sPJjsUvct6xVxdPYRK6BQG0IlEFmepawbiUOH/s7FAjLIiuaXaQSPkZnoeUJ9Jnk6IjEymmXT1/Z2FYrMyCr+IvU2+mVOoZxYCw+B//Z"width="70px"height="70px"> 
-  <img src="https://th.bing.com/th/id/OIP.jwe2U5qVWawaNBwe5euOkAHaE8?w=288&h=192&c=7&r=0&o=5&pid=1.7" width="70px"height="70px">
-  <img src="https://th.bing.com/th/id/OIP.DgVNhFcvWWSCxJpVWsry4wHaHV?w=183&h=181&c=7&r=0&o=5&pid=1.7"width="60px"height="60px">
-      </div>
-    </footer> 
 </body>
 </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox{
+            background-color: blueviolet;
+            display: flex;
+            flex-wrap:nowrap ;
+        }
+        .flexbox >div{
+            width:100px;
+            margin:10px;
+            padding: 10px;
+            font-size: 12px;
+            background-color: blue;
+            text-align: center;
+           line-height: 50px;
+        }
+        .flexbox1{
+            background-color: aqua;
+            display:flex;
+            flex-wrap:wrap-reverse;
+        }
+        .flexbox1 > div{
+            width:100px;
+            margin:10px;
+            padding:10px;
+            font-size:12px;
+            background-color: brown;
+            text-align: center;
+            line-height: 40px;
+        }
+        .flexbox2
+        {
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+        }
+        .flexbox2 > div{
+            width:100px;
+            padding:10px;
+            text-align: center;
+            background-color: red;
+            line-height: 40px;
+            font-size: 14px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <div class="flexbox1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <div class="flexbox2">
+        <h3 >justifly content</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        </div>
+</body>
+</html>

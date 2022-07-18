@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            border-radius: 10px;
+
+        }
+        th ,td{
+            /* background-color: aquamarine; */
+            text-align: center;
+            /* padding:13px; */
+            /* spacing:12px; */
+        }
+        tr:hover{
+            background-color: red;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <table style="width:25%">
+        <caption >sample</caption>
+        <colgroup>
+        <col span="2" style="background-color:yellowgreen">
+        <col span="1"style="background-color:darkseagreen">
+        <col span="1"style="visibility:collapse">
+        </colgroup>
+
+        <tr>
+            <th style="width:100%">Firstname</th>
+            <th colspan="2">Lastname</th> 
+            <th>Age</th>
+          </tr>
+          <tr style="height:100px">
+            <td>Jill</td>
+            <td rowspan="3">Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+            </tr>
+    </table>
+</body>
+</html>
